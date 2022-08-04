@@ -1,0 +1,29 @@
+.filter{
+    margin: 0 auto;
+    display: flex;
+    justify-content: center;
+    max-width: 640px;
+}
+.filter-btn{
+    font-family: nunito,roboto,proxima-nova,"proxima nova",sans-serif;
+    color: white;
+    text-align: center;
+    width:33%;
+    margin:1px;
+    border-radius: 5px;
+    background-color: rgb(247, 154, 16);
+    font-size: 18px;
+    font-weight: 800;
+    line-height: 18px;
+    min-height: 60px;
+}
+
+
+.active{
+    color: yellow;
+    background-color: purple !important;
+}
+
+.filter-btn:hover{
+    background-color: rgb(254, 170, 44);
+}
