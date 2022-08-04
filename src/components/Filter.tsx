@@ -1,9 +1,10 @@
 import React from 'react'
 import "./Filter.css";
-export enum EStatus{
-    ACTIVE = "ACTIVE",
-    COMPLETED = "COMPLETED",
-    ALL = "ALL",
+export enum EStatus {
+  ALL = "ALL",
+  ACTIVE = "ACTIVE",
+  COMPLETED = "COMPLETED",
+  INCOMPLETED = "INCOMPLETED",
 }
 interface IFilter{
     activeValue: EStatus;
